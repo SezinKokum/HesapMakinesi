@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/digital_07.otf");
+    TextView tv = (TextView) findViewById(R.id.digitalclock);
+    tv.setTypeface(tf);
+</resources>
